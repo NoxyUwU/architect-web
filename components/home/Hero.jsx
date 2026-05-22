@@ -14,10 +14,10 @@ export default function Hero() {
             Atelier Axis presents a selection of architecture projects balancing material clarity, environmental response, and human-centered experience.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
-            <Link href="/projects" className="rounded-full bg-stone-100 px-7 py-3 text-xs font-medium uppercase tracking-[0.14em] text-stone-900 transition hover:bg-stone-200">
+            <Link href="/projects" aria-label="View architecture projects" className="rounded-full bg-stone-100 px-7 py-3 text-xs font-medium uppercase tracking-[0.14em] text-stone-900 transition hover:bg-stone-200">
               View Projects
             </Link>
-            <Link href="/contact" className="rounded-full border border-stone-400/50 px-7 py-3 text-xs uppercase tracking-[0.14em] text-stone-200 transition hover:border-stone-100 hover:text-stone-100">
+            <Link href="/contact" aria-label="Start a conversation with Atelier Axis" className="rounded-full border border-stone-400/50 px-7 py-3 text-xs uppercase tracking-[0.14em] text-stone-200 transition hover:border-stone-100 hover:text-stone-100">
               Start a Conversation
             </Link>
           </div>

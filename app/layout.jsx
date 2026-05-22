@@ -2,9 +2,27 @@ import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 
+const siteTitle = 'Atelier Axis — Architecture Portfolio';
+const siteDescription =
+  'Modern architecture portfolio featuring residential, commercial, and urban design concepts by Atelier Axis.';
+
 export const metadata = {
-  title: 'Architecture Portfolio',
-  description: 'Modern architecture portfolio website',
+  metadataBase: new URL('https://example.com'),
+  title: {
+    default: siteTitle,
+    template: '%s | Atelier Axis',
+  },
+  description: siteDescription,
+  openGraph: {
+    title: siteTitle,
+    description: siteDescription,
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteTitle,
+    description: siteDescription,
+  },
 };
 
 export default function RootLayout({ children }) {
