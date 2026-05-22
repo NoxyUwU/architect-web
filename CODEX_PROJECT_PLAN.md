@@ -548,6 +548,8 @@ Yang dikerjakan:
 - Project detail page by slug
 - Gallery layout
 - Project metadata
+- Support image and video media content
+- Allow embedded video support for future Vimeo/YouTube integration
 
 Data dummy harus punya:
 
@@ -559,7 +561,10 @@ Data dummy harus punya:
 - description
 - cover image
 - gallery images
+- media items
+- embedded video URL
 - software used
+- project type
 
 Prompt untuk Codex:
 
