@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import MotionSection from '@/components/ui/MotionSection';
 
 export default function ContactCTA() {
   return (
-    <section className="px-6 pb-24 pt-8 md:px-12">
+    <MotionSection className="px-6 pb-24 pt-8 md:px-12" delay={0.15}>
       <div className="mx-auto flex max-w-6xl flex-col gap-8 rounded-3xl border border-stone-200/15 bg-stone-100 px-8 py-10 text-stone-900 md:flex-row md:items-end md:justify-between md:px-12 md:py-12">
         <div>
           <p className="text-xs uppercase tracking-[0.2em] text-stone-500">Contact</p>
@@ -12,6 +13,6 @@ export default function ContactCTA() {
           Send Inquiry
         </Link>
       </div>
-    </section>
+    </MotionSection>
   );
 }
