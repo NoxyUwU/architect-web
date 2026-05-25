@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_25%_20%,rgba(245,245,244,0.18),transparent_48%),radial-gradient(circle_at_75%_10%,rgba(120,113,108,0.25),transparent_42%),linear-gradient(180deg,#1c1917_0%,#0f172a_95%)]" />
       <div className="mx-auto grid w-full max-w-6xl gap-12 lg:grid-cols-[1.4fr_1fr] lg:items-end">
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}>
-          <p className="mb-6 text-xs uppercase tracking-[0.3em] text-stone-300">Personal Architecture Portfolio</p>
+          <p className="mb-6 text-xs uppercase tracking-[0.3em] text-stone-300">Rizki Ferdiansyah · Sriwijaya University</p>
           <h1 className="max-w-4xl text-4xl font-light leading-[1.05] tracking-tight text-stone-100 sm:text-5xl md:text-7xl">
             Spatial Narratives for Contemporary Living and Urban Context
           </h1>
@@ -20,7 +20,7 @@ export default function Hero() {
             <Link href="/projects" aria-label="View architecture projects" className="rounded-full bg-stone-100 px-7 py-3 text-xs font-medium uppercase tracking-[0.14em] text-stone-900 transition hover:bg-stone-200">
               View Projects
             </Link>
-            <Link href="/contact" aria-label="Start a conversation with Naufal Yuw" className="rounded-full border border-stone-400/50 px-7 py-3 text-xs uppercase tracking-[0.14em] text-stone-200 transition hover:border-stone-100 hover:text-stone-100">
+            <Link href="/contact" aria-label="Start a conversation with Rizki Ferdiansyah" className="rounded-full border border-stone-400/50 px-7 py-3 text-xs uppercase tracking-[0.14em] text-stone-200 transition hover:border-stone-100 hover:text-stone-100">
               Start a Conversation
             </Link>
           </div>

@@ -34,8 +34,8 @@ export default function Navbar() {
             : 'border-stone-200/15 bg-stone-950/35'
         }`}
       >
-        <Link href="/" className="text-sm uppercase tracking-[0.18em] text-stone-100" aria-label="Personal architecture portfolio homepage">
-          Naufal Yuw
+        <Link href="/" className="text-sm uppercase tracking-[0.18em] text-stone-100" aria-label="Rizki Ferdiansyah personal architecture portfolio homepage">
+          Rizki Ferdiansyah
         </Link>
 
         <button
