@@ -16,8 +16,8 @@ export default function Navbar() {
   return (
     <header className="fixed left-0 right-0 top-0 z-50 px-4 md:px-0">
       <div className="mx-auto mt-4 flex max-w-6xl items-center justify-between rounded-full border border-stone-200/15 bg-stone-950/35 px-6 py-4 backdrop-blur md:px-8">
-        <Link href="/" className="text-sm uppercase tracking-[0.18em] text-stone-100" aria-label="Atelier Axis homepage">
-          Atelier Axis
+        <Link href="/" className="text-sm uppercase tracking-[0.18em] text-stone-100" aria-label="Personal architecture portfolio homepage">
+          Naufal Yuw
         </Link>
 
         <button
